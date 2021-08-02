@@ -1,0 +1,156 @@
+2019-08-09 06:52:42 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "composer.phar". in C:\wamp64\www\shins\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('composer.phar', Array)
+#1 C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('composer.phar', Array)
+#2 C:\wamp64\www\shins\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp64\www\shins\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "composer.phar". in C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('composer.phar', Array)
+#1 C:\wamp64\www\shins\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp64\www\shins\yii(23): yii\base\Application->run()
+#3 {main}
+2019-08-09 06:52:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Janaka\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JANAKA'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Janaka'
+    'LOCALAPPDATA' => 'C:\\Users\\Janaka\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JANAKA'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Janaka\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\VisualSVN Server\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp64\\bin\\php\\php7.3.1;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files\\VisualSVN Server\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SynaProgDir' => 'Synaptics\\SynTP'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Janaka\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Janaka\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JANAKA'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JANAKA'
+    'USERNAME' => 'Janaka'
+    'USERPROFILE' => 'C:\\Users\\Janaka'
+    'VISUALSVN_SERVER' => 'C:\\Program Files\\VisualSVN Server\\'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1565333561.5535
+    'REQUEST_TIME' => 1565333561
+    'argv' => [
+        0 => 'yii'
+        1 => 'composer.phar'
+        2 => 'update'
+    ]
+    'argc' => 3
+]
+2019-08-09 06:53:03 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "composer". in C:\wamp64\www\shins\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('composer', Array)
+#1 C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('composer', Array)
+#2 C:\wamp64\www\shins\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp64\www\shins\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "composer". in C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 C:\wamp64\www\shins\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('composer', Array)
+#1 C:\wamp64\www\shins\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp64\www\shins\yii(23): yii\base\Application->run()
+#3 {main}
+2019-08-09 06:53:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Janaka\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'JANAKA'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Janaka'
+    'LOCALAPPDATA' => 'C:\\Users\\Janaka\\AppData\\Local'
+    'LOGONSERVER' => '\\\\JANAKA'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Janaka\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\VisualSVN Server\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp64\\bin\\php\\php7.3.1;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 142 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files\\VisualSVN Server\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SynaProgDir' => 'Synaptics\\SynTP'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Janaka\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Janaka\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'JANAKA'
+    'USERDOMAIN_ROAMINGPROFILE' => 'JANAKA'
+    'USERNAME' => 'Janaka'
+    'USERPROFILE' => 'C:\\Users\\Janaka'
+    'VISUALSVN_SERVER' => 'C:\\Program Files\\VisualSVN Server\\'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1565333583.7552
+    'REQUEST_TIME' => 1565333583
+    'argv' => [
+        0 => 'yii'
+        1 => 'composer'
+        2 => 'update'
+    ]
+    'argc' => 3
+]
